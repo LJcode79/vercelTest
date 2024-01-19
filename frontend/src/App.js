@@ -5,7 +5,7 @@ function App() {
   const [backendData, setBackendData] = useState([{}])
 
   useEffect(() => {
-    fetch("https://vercel-test-server-gamma.vercel.app/api").then(
+    fetch(process.env.REACT_APP_SERVER + "/api").then(
       response => response.json()
     ).then(
       data => {
