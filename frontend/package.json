@@ -1,6 +1,5 @@
 {
   "name": "my-app",
-  "proxy": "https://vercel-test-server-gamma.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
